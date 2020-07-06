@@ -1,0 +1,75 @@
+.container{
+    margin-bottom: 100px;
+}
+
+.nav-search-icon{
+    background-color:#F8F9FA;
+    position: relative;
+}
+.nav-search-icon input[type="submit"]{
+    float: right;
+    background: url(images/search-icon.png) no-repeat;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    text-indent: -999999px;
+    border: none;
+    top: 7px;
+    right: 20px;
+    cursor: pointer;
+}
+.nav-search-icon .search-box{
+    width:100%;
+    border-radius: 42px;
+    float: left;
+    
+}
+.carousel-item{
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.price{
+    color: #FF136F;
+}
+.buy-now-button{
+    background-image:url(images/button-bg.png);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.orange-bg{
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+.cat1,.cat2,.cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.cat1{
+    background-image:url(images/categories/watch-bg.png);
+}
+.cat2{
+    background-image: url(images/categories/bag-bg.png);
+}
+.cat3{
+    background-image: url(images/categories/shoes-bg.png);
+}
+.categories h1{
+    color: white;
+}
+.categories img{
+    width: 100px;
+}
+.card{
+    border:none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+#contact{
+    height: 300px;
+}
+#contact h6{
+    color: gray;
+}
